@@ -1,2 +1,3 @@
 /.venv/
 /.inputs/
+/.mypy_cache/

@@ -5,7 +5,8 @@
     // List of extensions which should be recommended for users of this workspace.
     "recommendations": [
         "ms-python.flake8",
-        "ms-python.black-formatter"
+        "ms-python.black-formatter",
+        "ms-python.mypy-type-checker"
     ],
     // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
     "unwantedRecommendations": [
