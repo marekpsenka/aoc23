@@ -63,23 +63,6 @@ max_i = len(input)
 max_j = len(input[0])
 
 
-def is_symbol(c: str) -> bool:
-    return (not c.isdigit()) and (not c == ".")
-
-
-def get_symbol(p: tuple[int, int]) -> str:
-    return input[p[0]][p[1]]
-
-
-def any_neighbor_is_symbol(p: tuple[int, int]) -> bool:
-    return any(
-        map(
-            lambda p: is_symbol(get_symbol(p)),
-            neighbors(p[0], p[1], max_i, max_j),
-        )
-    )
-
-
 stars = defaultdict(set)
 
 for i, line in enumerate(input):
