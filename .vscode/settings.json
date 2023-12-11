@@ -3,6 +3,6 @@
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true
   },
-  "black-formatter.args": ["--line-length", "80"],
+  "black-formatter.args": ["--line-length", "79"],
   "flake8.args": ["--ignore", "E203,W503"]
 }
