@@ -485,14 +485,6 @@
             "args": [ "<", "${workspaceFolder}/.inputs/day15.txt"]
         },
         {
-            "name": "i15 Jirka",
-            "type": "python",
-            "request": "launch",
-            "program": "${workspaceFolder}/day15a.py",
-            "console": "integratedTerminal",
-            "args": [ "<", "${workspaceFolder}/.inputs/i15.txt"]
-        },
-        {
             "name": "Day 16a : Test",
             "type": "python",
             "request": "launch",
